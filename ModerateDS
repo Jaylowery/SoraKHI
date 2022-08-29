@@ -2,7 +2,7 @@ import disord
 
 token = "MTAxMzg2MjMxNzMzNjgyNTg4Ng.GoCKFw.gy615s05ktLFROTcKSTPdjylZMQjAkiJ7smXlw"
 
-client = discord.Client()
+client = discord.Client(1013862317336825886)
 
 @client.event
 async def on_ready():
