@@ -1,0 +1,17 @@
+import disord
+
+token = "MTAxMzg2MjMxNzMzNjgyNTg4Ng.GoCKFw.gy615s05ktLFROTcKSTPdjylZMQjAkiJ7smXlw"
+
+client = discord.Client()
+
+@client.event
+async def on_ready():
+  print(f"Bot logged in as {client.user}")
+  
+@client.event
+async def on_message(msg)
+  if msg.autor != client.user:
+    if msg.content.lower().sartwith("?hi")
+      await msg.channel.send(f"hi, {msg.authordisplay_name}")
+      
+client.run(token)  
