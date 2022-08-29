@@ -1,6 +1,6 @@
 import discord.py
 
-url = "https://discord.com/api/oauth2/authorize?client_id=1013862317336825886&permissions=8&redirect_uri=https%3A%2F%2Fvscode.dev%2Fgithub.com%2FJaylowery%2FSoraKHI&response_type=code&scope=bot%20messages.read"
+token = "MTAxMzg2MjMxNzMzNjgyNTg4Ng.GOfl32.zPIOB5DzXUYzmAxMgvOvqmdBNQUcavSxQIA-mk"
 
 client = discord.Client(1013862317336825886)
 
@@ -14,4 +14,4 @@ async def on_message(msg):
     if msg.content.lower().sartwith("?hi"):
       await msg.channel.send(f"hi, {msg.authordisplay_name}")
       
-client.run(url)  
+client.run(token)  
