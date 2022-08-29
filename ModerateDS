@@ -1,6 +1,6 @@
 import discord
 
-token = "MTAxMzg2MjMxNzMzNjgyNTg4Ng.GRF6mZ.MySqkY65XZYCe4MqcszZp9KcCObTx4J3eeH9vY"
+token = "https://discord.com/api/oauth2/authorize?client_id=1013862317336825886&permissions=274877921280&scope=bot"
 
 client = discord.Client(1013862317336825886)
 
