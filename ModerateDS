@@ -1,4 +1,4 @@
-import discord.py
+import discord.js
 
 token = "MTAxMzg2MjMxNzMzNjgyNTg4Ng.GOfl32.zPIOB5DzXUYzmAxMgvOvqmdBNQUcavSxQIA-mk"
 
