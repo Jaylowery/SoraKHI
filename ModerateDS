@@ -1,6 +1,6 @@
 import discord.js
 
-token = "MTAxMzg2MjMxNzMzNjgyNTg4Ng.GOfl32.zPIOB5DzXUYzmAxMgvOvqmdBNQUcavSxQIA-mk"
+token = "MTAxMzg2MjMxNzMzNjgyNTg4Ng.GOejUM.F784HUjKVuo0DIbjAGhgNWcAmZiU7KDWe-o_VE"
 
 client = discord.Client(1013862317336825886)
 
