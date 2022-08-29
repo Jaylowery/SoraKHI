@@ -1,6 +1,6 @@
 import disord
 
-token = "https://discord.com/api/oauth2/authorize?client_id=1013862317336825886&permissions=274877921280&redirect_uri=https%3A%2F%2Fgithub.com%2FJaylowery%2FSoraKHI%2Fblob%2F4b21abddf8a89ee53542b69430fab78480c44626%2FModerateDS&response_type=code&scope=bot%20messages.read%20activities.read%20activities.write"
+token = "MTAxMzg2MjMxNzMzNjgyNTg4Ng.GCS31Y.bEgya2tYKolkJMExcvs3jajUjZcCc2ml_B2gek"
 
 client = discord.Client(1013862317336825886)
 
