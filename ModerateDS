@@ -1,6 +1,6 @@
 import disord
 
-token = "MTAxMzg2MjMxNzMzNjgyNTg4Ng.GoCKFw.gy615s05ktLFROTcKSTPdjylZMQjAkiJ7smXlw"
+token = "https://discord.com/api/oauth2/authorize?client_id=1013862317336825886&permissions=274877921280&redirect_uri=https%3A%2F%2Fgithub.com%2FJaylowery%2FSoraKHI%2Fblob%2F4b21abddf8a89ee53542b69430fab78480c44626%2FModerateDS&response_type=code&scope=bot%20messages.read%20activities.read%20activities.write"
 
 client = discord.Client(1013862317336825886)
 
@@ -9,9 +9,9 @@ async def on_ready():
   print(f"Bot logged in as {client.user}")
   
 @client.event
-async def on_message(msg)
+async def on_message(msg):
   if msg.autor != client.user:
-    if msg.content.lower().sartwith("?hi")
+    if msg.content.lower().sartwith("?hi"):
       await msg.channel.send(f"hi, {msg.authordisplay_name}")
       
 client.run(token)  
