@@ -1,6 +1,6 @@
-import discord
+import discord.vsc
 
-token = "MTAxMzg2MjMxNzMzNjgyNTg4Ng.GFRYfQ.TxHDi7znBRj1Y6PyHAGqqO--HPQqIBYJLtC_eM"
+token = "MTAxMzg2MjMxNzMzNjgyNTg4Ng.GuAJIl.15822mk--Jaz5nOwszDyJFwws9K_5JZmcawRNM"
 
 client = discord.Client(1013862317336825886)
 
